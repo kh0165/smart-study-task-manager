@@ -1,0 +1,38 @@
+[
+    {
+        "title": "GUI",
+        "subject": "JAVA",
+        "priority": "High",
+        "status": "Completed"
+    },
+    {
+        "title": "ERD",
+        "subject": "DATABASE",
+        "priority": "High",
+        "status": "Completed"
+    },
+    {
+        "title": "Agile",
+        "subject": "SWE-1",
+        "priority": "Low",
+        "status": "Completed"
+    },
+    {
+        "title": "Schema",
+        "subject": "DB",
+        "priority": "Medium",
+        "status": "Completed"
+    },
+    {
+        "title": "JS",
+        "subject": "Web",
+        "priority": "Low",
+        "status": "Pending"
+    },
+    {
+        "title": "css",
+        "subject": "web",
+        "priority": "Low",
+        "status": "Canceled"
+    }
+]

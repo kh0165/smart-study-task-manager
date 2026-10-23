@@ -111,8 +111,16 @@ def updateTask():
     update = False
     for task in Tasks.tasks:
         if task["title"].lower() == updateTitle.lower():
-            print("1. Update Title \n2. Update Subject \n3. Update Priority \n4. Update Status")
-            choice = input("Enter your choice for update: ")
+            print(Fore.CYAN + "╔══════════════════════════════════╗")
+            print("║          UPDATE TASK             ║")
+            print("╠══════════════════════════════════╣")
+            print("║  1. Update Title                 ║")
+            print("║  2. Update Subject               ║")
+            print("║  3. Update Priority              ║")
+            print("║  4. Update Status                ║")
+            print("╚══════════════════════════════════╝" + Style.RESET_ALL)
+
+            choice = input(Fore.YELLOW + "» Enter your choice: " + Style.RESET_ALL)
 
             if choice == "1":
                 task["title"] = input("Enter new title: ").strip()
